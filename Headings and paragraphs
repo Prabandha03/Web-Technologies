@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- 1c -->
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>1c</title>
+ </head>
+ <body>
+  <h1>Introducing me as a heading</h1>
+  <p>Here are my little children- the paragraphs</p>
+  <p><pre>I am the one
+I am the two
+I am the three
+I am the four</pre></p>
+ </body>
+</html>
