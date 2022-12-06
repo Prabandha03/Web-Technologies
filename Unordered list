@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- 5b -->
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>5b</title>
+ </head>
+ <body>
+  <h1>Contents of a page</h1>
+  <ul>
+   <li>Messages</li>
+    <ol>
+     <li>Pigeon</li>
+     <li>Letters</li>
+     <li>Whatsapp</li>
+    </ol>
+   <li>Emails</li>
+    <ul>
+     <li>Types of lists</li>
+    </ul>
+   <li>Others</li>
+  </ul>
+ </body>
+</html>
