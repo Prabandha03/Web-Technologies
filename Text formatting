@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!-- 3b -->
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>3b</title>
+ </head>
+ <body>
+  <p><i>This text is formatted in italic</i><b> This text is formatted bold</b>
+     <u> This text is underlined</u> All these come under text formatting</p>
+ </body>
+</html>
