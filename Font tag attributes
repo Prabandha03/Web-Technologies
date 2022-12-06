@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- 3a -->
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>3a</title>
+ </head>
+ <body>
+  <h1>Different attributes of font tag</h1>
+  <p style="color:violet;font-size:10px;font-family:verdana;font-style:oblique;
+           font-weight:10;background-color:pink;">Fonts and color</p>
+  <p style="text-decoration:underline;text-transform:uppercase;
+           text-shadow:10px 1px violet;word-spacing:1px;">Text structure</p>
+ </body>
+</html>
