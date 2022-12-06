@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!-- 4a -->
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>4a</title>
+ </head>
+ <body>
+  <p><a href="Z:\Web Technologies" alink="blue" vlink="violet">
+     alink is for active link color vlink is for visited link color</a></p>
+ </body>
+</html>
