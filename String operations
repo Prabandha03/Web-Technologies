@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- j5a -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>j5a</title>
+</head>
+<body>
+<script>
+let s1=new String('Hello World!');
+let s2=new String('I am violet');
+let s3=new String();
+s3=s1.concat(s2);
+document.write(s3+'<br>');
+document.write(s1.charAt(3)+'<br>');
+document.write(s1.indexOf('l')+'<br>');
+document.write(s1.lastIndexOf('l')+'<br>');
+document.write(s1.toLowerCase()+'<br>');
+document.write(s1.toUpperCase()+'<br>');
+document.write(s1.valueOf()+'<br>');
+document.write(s1.toString()+'<br>');
+document.write(s1.substr(2,5)+'<br>');
+document.write(s1.substring(2,6)+'<br>');
+document.write(s3.split(' ')+'<br>');
+document.write(s3.split(' ',4)+'<br>');
+document.write(s3.slice(2,9)+'<br>');//returns the part of the string
+</script>
+</body>
+</html>
