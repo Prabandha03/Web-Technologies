@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- j4b -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>j4b</title>
+</head>
+<body>
+<button onclick=search_num()>search</button>
+<script>
+function search_num()
+{
+var num = [1,10,2,9,11,12,19,18];
+var sonum = num.sort();
+n=num.length;
+var a=parseInt(prompt('Enter a number for search:'));
+var left=0;
+var right=n-1;
+mid=Math.floor((left+right)/2);
+while(left<=right){
+if(a==sonum[mid]){
+document.write('number is found at index '+mid);
+return;}
+else if (a>sonum[mid])
+left=mid+1;
+else
+right=mid-1;
+mid=Math.floor((left+right)/2);}
+document.write('Number not found');}
+</script>
+</body>
+</html>
