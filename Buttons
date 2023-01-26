@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- 8b -->
+<html>
+<head>
+<met charset="utf-8">
+<title>8b</title>
+</head>
+<body id="col">
+<form>
+violet
+<input type="radio" name="a" onClick="document.bgColor='violet'">
+<br>
+blue
+<input type="radio" name="a" onClick="document.bgColor='skyblue'">
+<br>
+orange
+<input type=radio name='a' onClick="document.bgColor='orange'">
+</form>
+</body>
+</html>
