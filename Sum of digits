@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- j2a -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>j2a</title>
+</head>
+<body>
+<form>
+<BUTTON onclick=sum_of_digi()>click here</button>
+</form>
+<script>
+function sum_of_digi()
+{
+let a=parseInt(prompt('Enter a number'));
+let sum=0;
+while(a>0)
+{
+sum=sum+a%10;
+a=Math.floor(a/10);
+}
+document.write(sum);
+}
+</script>
+</body>
+</html>
