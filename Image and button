@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- j3c -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>j3c</title>
+</head>
+<body>
+<button onclick="rig()">RIG</button>
+<img id="img">
+<script>
+function rig(){
+var images = ['1.jpg','2.png','3.jpg','4.webp','5.jpg'];
+var a=Math.floor(Math.random() * images.length);
+document.getElementById('img').src=images[a];
+}
+</script>
+</body>
+</html>
