@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- j6a -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>j6a</title>
+</head>
+<body>
+<h1></h1>
+<p></p>
+<script>
+var n =document.all;
+for(var i=0;i<n.length;i++)
+{
+document.writeln(n[i].tagName);
+}
+</script>
+</body>
+</html>
