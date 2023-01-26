@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- j4a -->
+<html>
+<head>
+<meta charset="utf-8'>
+<title>j4a</title>
+</head>
+<body>
+<script>
+var a=[1,2,10,9,11,12,19,18];
+for (var i=0;i<a.length-1;i++)
+{
+for(var j=0;j<a.length-i-1;j++)
+{
+if(a[j]>a[j+1])
+{
+var temp;
+temp=a[j];
+a[j]=a[j+1];
+a[j+1]=temp;
+}}}
+for (var i=0;i<a.length;i++)
+document.write(' '+a[i]);
+</script>
+</body>
+</html>
