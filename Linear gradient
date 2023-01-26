@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- 11a -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>11a</title>
+<style>
+#grad {
+  height: 500px;
+  width:500px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right,violet,indigo,blue,green,yellow,orange,red);
+}
+</style>
+</head>
+<body>
+<h1>Linear Gradient - Left to Right</h1>
+<p>This linear gradient starts violet at the left, transitioning to red (to the right):</p>
+<div id="grad"></div>
+</body>
+</html>
