@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- j1c -->
+<htmL>
+<head>
+<meta charset="utf-8">
+<title>j1c</title>
+</head>
+<body>
+<button onclick= arthi_operation()>calc</button>
+<script>
+function arthi_operation(){
+ var x=parseInt(prompt('Enter a number'));
+ var y=parseInt(prompt('Enter a number'));
+ var c=prompt('Enter operator');
+switch(c){
+case '+': var r=x+y;
+document.write("addition of "+x+","+y+"="+r);
+break;
+case '-': var r=x-y;
+document.write("subtraction of "+x+","+y+"="+r);
+break;
+case '*': var r=x*y;
+document.write("multiplication of "+x+","+y+"="+r);
+break;
+case '/': var r=x/y;
+document.write("division of "+x+","+y+"="+r);
+break;
+case '%': var r=x%y;
+document.write("remainder of "+x+","+y+"="+r);
+break;
+defalut:document.write("Invalid operation");}}
+</script>
+</body>
+</html>
