@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- 10b -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>10b</title>
+<style>
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+</style>
+</head>
+<body>
+<h1>The z-index Property</h1>
+<img style="  position: absolute;  z-index: -1;"
+ src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Front_side_of_Veerabhadra_Temple%2C_Lepakshi.jpg/250px-Front_side_of_Veerabhadra_Temple%2C_Lepakshi.jpg"
+ width="100" height="140">
+<img style="  position: relative;z-index: 1;"
+ src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Front_side_of_Veerabhadra_Temple%2C_Lepakshi.jpg/250px-Front_side_of_Veerabhadra_Temple%2C_Lepakshi.jpg"
+ width="100" height="140">
+<p>Because the image has a z-index of -1, it will be placed behind the heading.</p>
+</body>
+</html>
