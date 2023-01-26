@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- 8a -->
+<html>
+<head>
+<style>
+body{
+border:1px violet solid;
+margin:50px 280px;
+padding:40px;
+}
+</style>
+</head>
+<body>
+<p>Application Form</p>
+<form>
+<label for="firstname">First Name:</label>
+<input type="text" id="fname" name="fname">
+<br>
+<br><label for="lastname" >Last Name:<label>
+<input type="text" name="lname" id="lanme">
+<br><br>
+<label for="gender">Gender:</label>
+<input type="radio" id="female" name="gender" value="F">
+<label for="Female">Female</label>
+<input type="radio" id="male" name="gender" value="M">
+<label for="Male">Male</label>
+<br><br>
+<Label for="ed">Education Details:</label>
+<input type="checkbox" id="10" name="ssc" value="SSC">
+<label for ='10'>SSC</label>
+<input type=checkbox id="12" name="inter" value="inter">
+<label for =inter> Intermediate</label>
+<br><br>
+<label for=birthday>DOB</label>
+<input type="date" id="dob" name="dob">
+<br><br>
+<label for=email>Email:</label>
+<input type=email id='email' name=email>
+<br><br>
+<label for=resume>Upload Resume</label>
+<input type=file id="file" name="file">
+<br><br>
+<input type=submit>
+</body>
+</html>
