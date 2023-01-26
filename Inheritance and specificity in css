@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- 10c -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>10c</title>
+<style>
+#inh {color: violet;}
+.spec {color: orange;}
+p {color: red;}
+</style>
+</head>
+<body>
+<p id="inh" class="spec">This shows the inheritance and specificity uses in css</p>
+</body>
+</html>
