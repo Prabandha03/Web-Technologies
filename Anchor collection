@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- j6c -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>j6c</title>
+</head>
+<body>
+<a href ="https://upload.wikimedia.org/wikipedia/commons/thumb/
+0/0a/Front_side_of_Veerabhadra_Temple%2C_Lepakshi.jpg/375px-Front_side
+_of_Veerabhadra_Temple%2C_Lepakshi.jpg" >one</a>
+<a href ="https://upload.wikimedia.org/wikipedia/commons/thumb/
+4/4e/Shiva%27s_Bull_at_Lepakshi_%28Lepakshi_Nandi%29.jpg/480px-Shiva%27
+s_Bull_at_Lepakshi_%28Lepakshi_Nandi%29.jpg" >two</a>
+<a href ="https://upload.wikimedia.org/wikipedia/commons/thumb/
+9/93/India_Andhra_Pradesh_location_map_%28current%29.svg/375px-India_An
+dhra_Pradesh_location_map_%28current%29.svg.png" >three</a>
+<script>
+var n = document.links.length;
+document.writeln(n);
+</script>
+</body>
+</html>
